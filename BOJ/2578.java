@@ -33,7 +33,7 @@ public class Main
 			}
 		}
 
-		for(int i = 11; i < 20; i++)
+		for(int i = 11; i < 25; i++)
 		{
 			for(int j = 0; j < 25; j++)
 			{
@@ -57,6 +57,7 @@ public class Main
 				colSum = 0;
 				rowSum = 0;
 			}
+			
 			leftSum = bingo[0][0] * answer[0] + bingo[1][1] * answer[1] + bingo[2][2] * answer[2] + bingo[3][3] * answer[3] + bingo[4][4] * answer[4];
 			rightSum = bingo[0][4] * answer[0] + bingo[1][3] * answer[1] + bingo[2][2] * answer[2] + bingo[3][1] * answer[3] + bingo[4][0] * answer[4];
 
@@ -80,5 +81,4 @@ public class Main
 		System.out.printf("%d", 21);
 		return;
 	}
-
 }
